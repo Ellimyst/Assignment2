@@ -1,6 +1,6 @@
 //Sumukh Vaze
 //CSE 360
-//Assignment 1
+//Assignment 2
 
 package cse360assign2;
 
