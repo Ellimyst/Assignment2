@@ -7,7 +7,10 @@ package cse360assign2;
 //AddingMachine adds or subtracts values to a total which it returns.
 public class AddingMachine {
 
+	//int to store total
 	private int total;
+	
+	//string to store history
 	private String history;
 	
 	//constructor
@@ -23,12 +26,14 @@ public class AddingMachine {
 	
 	//add value to total
 	public void add (int value) {
+		//add value to total and add operation to history
 		total += value;
 		history = history +" + " +value;
 	}
 	
 	//subtract value from total
 	public void subtract (int value) {
+		//subtract value from total and add operation to history
 		total -= value;
 		history = history +" - " +value;
 	}
